@@ -82,7 +82,7 @@ public class CityControllerIT {
 	}
 
 	@Test
-	@Transactional
+	@Transactional()
 	public void deleteShouldReturnBadRequestWhenDependentId() throws Exception {
 
 		Long dependentId = 1L;
